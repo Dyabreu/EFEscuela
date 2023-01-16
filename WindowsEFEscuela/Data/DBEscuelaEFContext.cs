@@ -14,5 +14,7 @@ namespace WindowsEFEscuela.Data
         public DBEscuelaEFContext() : base("KeyDB") { } 
         public DbSet<Alumno> Alumnos { get; set;}
         public DbSet<Profesor> Productos { get; set;}
+        public DbSet<Aula> Aulas { get; set; }
+        public DbSet<Materia> Materias { get; set;}
     }
 }

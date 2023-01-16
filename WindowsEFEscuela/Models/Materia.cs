@@ -8,16 +8,10 @@ using System.Threading.Tasks;
 
 namespace WindowsEFEscuela.Models
 {
-    [Table("Docente")]
-    public class Profesor
+    [Table("Materia")]
+    public class Materia
     {
-        [Key]
-        [Column("Id")]
-        public int ProfesorId { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(50)]
-        [Required]
-        public string Apellido { get; set; }
+        public int Id { get; set; }
         [Column(TypeName = "varchar")]
         [StringLength(50)]
         [Required]
@@ -25,6 +19,6 @@ namespace WindowsEFEscuela.Models
         [Column(TypeName = "varchar")]
         [StringLength(50)]
         [Required]
-        public string Titulo { get; set; }
+        public string Programa { get; set; }    
     }
 }

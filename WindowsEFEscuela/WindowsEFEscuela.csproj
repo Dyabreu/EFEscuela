@@ -71,8 +71,18 @@
     <Compile Include="Migrations\202301162012536_cambioId-Profesor.designer.cs">
       <DependentUpon>202301162012536_cambioId-Profesor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301162018190_caso2.cs" />
+    <Compile Include="Migrations\202301162018190_caso2.designer.cs">
+      <DependentUpon>202301162018190_caso2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301162020543_db-set-agregado.cs" />
+    <Compile Include="Migrations\202301162020543_db-set-agregado.designer.cs">
+      <DependentUpon>202301162020543_db-set-agregado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Alumno.cs" />
+    <Compile Include="Models\Aula.cs" />
+    <Compile Include="Models\Materia.cs" />
     <Compile Include="Models\Profesor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +91,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301162012536_cambioId-Profesor.resx">
       <DependentUpon>202301162012536_cambioId-Profesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301162018190_caso2.resx">
+      <DependentUpon>202301162018190_caso2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301162020543_db-set-agregado.resx">
+      <DependentUpon>202301162020543_db-set-agregado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
