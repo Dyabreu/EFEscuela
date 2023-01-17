@@ -21,11 +21,19 @@ namespace WindowsEFEscuela
 
         private void btnInsertar_Click(object sender, EventArgs e)
         {
+            Profesor profesor = new Profesor()
+            {
+                Nombre = "Luis",
+                Apellido = "Juarez",
+                Titulo = "Matemáticas"
+            };
+
             Alumno alumno = new Alumno()
             {
                 Nombre = txtNombre.Text,
                 Apellido = txtApellido.Text,
-                FechaNacimiento = txtFN.Value
+                FechaNacimiento = txtFN.Value,
+                Profesor = profesor
 
             };
             int filasAfectadas = AbmAlumno.Insertar(alumno);
@@ -49,12 +57,20 @@ namespace WindowsEFEscuela
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            Profesor profesor = new Profesor()
+            {
+                Nombre = "Luis",
+                Apellido = "Juarez",
+                Titulo = "Matemáticas"
+            };
             Alumno alumno = new Alumno()
             {
                 IdAlumno = Convert.ToInt32(txtId.Text),
                 Nombre = txtNombre.Text,
                 Apellido = txtApellido.Text,
-                FechaNacimiento = txtFN.Value
+                FechaNacimiento = txtFN.Value,
+                Profesor = profesor
+
             };
             int filasAfectadas = AbmAlumno.Modificar(alumno);
 
@@ -67,12 +83,19 @@ namespace WindowsEFEscuela
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            Profesor profesor = new Profesor()
+            {
+                Nombre = "Luis",
+                Apellido = "Juarez",
+                Titulo = "Matemáticas"
+            };
             Alumno alumno = new Alumno()
             {
                 IdAlumno = Convert.ToInt32(txtId.Text),
                 Nombre = txtNombre.Text,
                 Apellido = txtApellido.Text,
-                FechaNacimiento = txtFN.Value
+                FechaNacimiento = txtFN.Value,
+                Profesor = profesor
             };
             int filasAfectadas = AbmAlumno.Eliminar(alumno);
 
