@@ -96,7 +96,7 @@
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(344, 190);
+            this.btnInsertar.Location = new System.Drawing.Point(334, 190);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(75, 33);
             this.btnInsertar.TabIndex = 6;
@@ -106,9 +106,9 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(425, 190);
+            this.btnModificar.Location = new System.Drawing.Point(416, 190);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 33);
+            this.btnModificar.Size = new System.Drawing.Size(84, 33);
             this.btnModificar.TabIndex = 7;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;

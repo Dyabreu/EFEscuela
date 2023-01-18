@@ -14,7 +14,7 @@ namespace WindowsEFEscuela.Models
     {
         [Key]
         public int IdAlumno { get; set; }
-        [Column(TypeName ="varchar")]
+        [Column(TypeName = "varchar")]
         [StringLength(50)]
         [Required]
         public string Nombre { get; set; }
